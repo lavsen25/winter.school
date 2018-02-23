@@ -8,7 +8,7 @@ from compute import multiply
 
 )
 
-def test_divide:
+def test_divide :
     res=divide(1,2)
     assert res==pytest.approx(x)
 
@@ -16,7 +16,7 @@ def test_divide:
 
 
 
-def test_multiply:
+def test_multiply :
     assert multiply(2,2)==4
 
 
